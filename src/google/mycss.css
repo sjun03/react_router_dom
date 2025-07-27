@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cantaner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 200vh;
+}
+
+.top {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+.mid {
+  flex: 18;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  position: fixed;
+  right: 20px;
+  bottom: 20px
+}
+.google {
+  flex: 2;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 60px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px 5px #333333;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.like {
+  flex: 1;
+  width: 1300px;
+  height: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.hiblake {
+  flex: 2;
+}
+
+.butblake {
+  flex: 5;
+}
+.topimg {
+  width: 250px;
+}
+.likeimg {
+  width: 1000px;
+}
+.googleimg {
+  width: 800px;
+}
+.bottomimg {
+  width: 200px;
+}
+.upbutton {
+  display: flex;
+  background-color: antiquewhite;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+button {
+  border: none;
+  background: transparent;
+}
+.top img {
+  height: 35px;
+  width: 35px;
+}
+.searchbar {
+  padding-left: 20px;
+  margin-left: 50px;
+  border: 0cm;
+  width: 700px;
+}
+
+.like > div {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2px;
+}
+.like > div >div{
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like > div >div>img{
+  width: 40px;
+  height: 40px;
+}
