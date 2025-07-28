@@ -1,6 +1,6 @@
-const InputTodo = ({inputValue, setInputValue, setTodos }) => {
+const InputTodo = ({ inputValue, setInputValue, setTodos }) => {
   const handleInputChange = (event) => {
-    console.log(inputValue)
+    console.log(inputValue);
     setInputValue(event.target.value);
   };
   const handleAddClick = () => {

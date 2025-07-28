@@ -15,11 +15,19 @@ import ascode from "./ascode.png";
 import baekjoon from "./baekjoon.png";
 import deu from "./deu.png";
 import "./mycss.css";
-import CantanerGoogles from "./CantanerGoogles";
+import MidImg from "./MidImg";
+import MIdSearch from "./MidSearch";
+import MidLike from "./MidLike";
 
-const Google = () => {
+const MidCp = () => {
   return (
-    <CantanerGoogles/>
+    <div className="mid">
+      <div className="hiblake"></div>
+      <MidImg />
+      <MIdSearch />
+      <MidLike />
+      <div className="butblake"></div>
+    </div>
   );
 };
-export default Google;
+export default MidCp;

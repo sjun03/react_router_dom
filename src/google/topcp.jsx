@@ -15,11 +15,12 @@ import ascode from "./ascode.png";
 import baekjoon from "./baekjoon.png";
 import deu from "./deu.png";
 import "./mycss.css";
-import CantanerGoogles from "./CantanerGoogles";
-
-const Google = () => {
+import Toprowcp from "./Toprowcp";
+const Topcp = () => { 
   return (
-    <CantanerGoogles/>
+    <div className="top">
+      <Toprowcp />
+    </div>
   );
-};
-export default Google;
+}
+export default Topcp;

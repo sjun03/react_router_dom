@@ -15,7 +15,8 @@ function Todo() {
         setTodos={setTodos}
       ></InputTodo>
 
-      <ListTodo todos={todos}></ListTodo>
+      <ListTodo todos={todos}
+      setTodos={setTodos}></ListTodo>
       
     </main>
   );

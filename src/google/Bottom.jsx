@@ -15,11 +15,11 @@ import ascode from "./ascode.png";
 import baekjoon from "./baekjoon.png";
 import deu from "./deu.png";
 import "./mycss.css";
-import CantanerGoogles from "./CantanerGoogles";
-
-const Google = () => {
+const Bottom = () => {
   return (
-    <CantanerGoogles/>
+    <div className="bottom">
+      <img className="bottomimg" src={bottom} alt="하단 이미지" />
+    </div>
   );
 };
-export default Google;
+export default Bottom;

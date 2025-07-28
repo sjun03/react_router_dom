@@ -14,12 +14,21 @@ import youtube from "./youtube.png";
 import ascode from "./ascode.png";
 import baekjoon from "./baekjoon.png";
 import deu from "./deu.png";
+import React from "react";
 import "./mycss.css";
-import CantanerGoogles from "./CantanerGoogles";
+import Topcp from './topcp';
+import MidCp from './MidCp';
+import Bottom from './Bottom';
+import Button from "./Button";
 
-const Google = () => {
+const CantanerGoogles = () => { 
   return (
-    <CantanerGoogles/>
+    <div className="cantanerGoogle">
+      <Topcp/>
+      <MidCp/>
+      <Bottom/>
+      <Button/>
+    </div>
   );
-};
-export default Google;
+}
+export default CantanerGoogles;

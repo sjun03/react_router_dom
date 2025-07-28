@@ -15,11 +15,19 @@ import ascode from "./ascode.png";
 import baekjoon from "./baekjoon.png";
 import deu from "./deu.png";
 import "./mycss.css";
-import CantanerGoogles from "./CantanerGoogles";
 
-const Google = () => {
+const MIdSearch = () => {
   return (
-    <CantanerGoogles/>
+    <div className="search">
+      <button className="searchpng">
+        <img src={search} alt="" />
+      </button>
+      <input
+        type="text"
+        className="searchbar"
+        placeholder="  Google 검색 또는 URL입력"
+      />
+    </div>
   );
 };
-export default Google;
+export default MIdSearch;

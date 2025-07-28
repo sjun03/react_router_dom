@@ -1,3 +1,7 @@
+import TopRowExpoCp from "./TopRowExpoCp";
+import TopRowGmailCp from "./TopRowGmailCp";
+import TopRowImgCp from "./topRowImgCp";
+import TopRowMenuCp from "./TopRowMenuCp";
 import expo from "./expo.png";
 import profile from "./profile.png";
 import googleimg from "./googleimg.png";
@@ -15,11 +19,17 @@ import ascode from "./ascode.png";
 import baekjoon from "./baekjoon.png";
 import deu from "./deu.png";
 import "./mycss.css";
-import CantanerGoogles from "./CantanerGoogles";
-
-const Google = () => {
+const Toprowcp = () => {
   return (
-    <CantanerGoogles/>
+    <div className="row">
+      <TopRowGmailCp />
+      <TopRowImgCp />
+      <TopRowExpoCp />
+      <TopRowMenuCp />
+      <button className="profile">
+        <img src={profile} alt="프로필사진" />
+      </button>
+    </div>
   );
 };
-export default Google;
+export default Toprowcp;
